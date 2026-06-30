@@ -14,7 +14,7 @@ def get_resource_path(relative_path):
 class SbomGuiApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Microsoft SBOM Tool 可视化生成器 (支持软件/IoT/OS)")
+        self.root.title("Microsoft SBOM Tool 可视化生成器 (支持软件/IoT/OS)- 作者：割不灵")
         self.root.geometry("800x850") # 再次调大窗口以容纳更详细的提示
         
         self.tool_exe = get_resource_path("sbom-tool-win-x64.exe")
