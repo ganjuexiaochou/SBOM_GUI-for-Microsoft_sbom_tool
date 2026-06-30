@@ -92,6 +92,8 @@ pip install pyinstaller
 在项目根目录下，执行以下命令：
 ```bash
 pyinstaller --noconsole --onefile --add-binary "sbom-tool-win-x64.exe;." sbom_gui.py
+pyinstaller --noconsole --onefile --version-file "file_version_info.txt" --add-binary "sbom-tool-win-x64.exe;." sbom_gui.py
+
 ```
 
 **参数解析：**
